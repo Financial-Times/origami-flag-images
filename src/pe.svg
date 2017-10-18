@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="640px" height="480px" viewBox="0 0 640 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>pe</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="pe" fill-rule="nonzero">
-            <polygon id="Shape" fill="#D91023" points="0 0 640 0 640 480 0 480"></polygon>
-            <polygon id="Shape" fill="#FFFFFF" points="213.333 0 426.666 0 426.666 480 213.333 480"></polygon>
-        </g>
-    </g>
-</svg>
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><title>pe</title><g fill-rule="nonzero" fill="none"><path fill="#D91023" d="M0 0h640v480H0z"/><path fill="#FFF" d="M213.333 0h213.333v480H213.333z"/></g></svg>
