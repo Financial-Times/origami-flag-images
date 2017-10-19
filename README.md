@@ -14,7 +14,7 @@ As with all image sets, these are available via the [Image Service](https://www.
 
 To get a flag from the Image Service, use the following URL (replace the `product_source` with your product name and `flag_name` with the ISO ALPHA-2 country code for the place you want)
 
-`https://www.ft.com/__origami/service/image/v2/images/raw/flag:{flag_name}?source={product_source}`
+`https://www.ft.com/__origami/service/image/v2/images/raw/ftflag:{flag_name}?source={product_source}`
 
 So to get Japan:
 `https://www.ft.com/__origami/service/image/v2/images/raw/flag:jp?source=test`

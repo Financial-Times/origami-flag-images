@@ -7,7 +7,7 @@ deployment:
   production:
     branch: master
     commands:
-      - ./node_modules/.bin/oist build-manifest --scheme fthead
+      - ./node_modules/.bin/oist build-manifest --scheme ftflag
       - >
         if [ ! "$(git status --porcelain)" == "" ]; then
           git config --global user.email "origami.support@ft.com";
@@ -19,8 +19,8 @@ deployment:
     tag: /v.*/
     owner: Financial-Times
     commands:
-      - ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-eu --scheme fthead --scheme-version $CIRCLE_TAG
-      - ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-us --scheme fthead --scheme-version $CIRCLE_TAG
+      - ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-eu --scheme ftflag --scheme-version $CIRCLE_TAG
+      - ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-us --scheme ftflag --scheme-version $CIRCLE_TAG
 test:
   override:
     - echo "no tests"
