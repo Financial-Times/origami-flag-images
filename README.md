@@ -25,7 +25,7 @@ The Image Service will convert these images on the fly if you pass in the right 
 
 ## Adding or modifying flags
 
-To keep head-shots consistent, please follow these guidelines:
+To keep flags consistent, please follow these guidelines:
 
 - Flags must be SVG format
 - Flags must be in a 4:3 aspect ratio
