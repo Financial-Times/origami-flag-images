@@ -1,0 +1,1271 @@
+{
+	"sourceDirectory": "src",
+	"scheme": "ftflag",
+	"images": [
+		{
+			"name": "ad",
+			"extension": "svg",
+			"path": "src/ad.svg"
+		},
+		{
+			"name": "ae",
+			"extension": "svg",
+			"path": "src/ae.svg"
+		},
+		{
+			"name": "af",
+			"extension": "svg",
+			"path": "src/af.svg"
+		},
+		{
+			"name": "ag",
+			"extension": "svg",
+			"path": "src/ag.svg"
+		},
+		{
+			"name": "ai",
+			"extension": "svg",
+			"path": "src/ai.svg"
+		},
+		{
+			"name": "al",
+			"extension": "svg",
+			"path": "src/al.svg"
+		},
+		{
+			"name": "am",
+			"extension": "svg",
+			"path": "src/am.svg"
+		},
+		{
+			"name": "ao",
+			"extension": "svg",
+			"path": "src/ao.svg"
+		},
+		{
+			"name": "ar",
+			"extension": "svg",
+			"path": "src/ar.svg"
+		},
+		{
+			"name": "as",
+			"extension": "svg",
+			"path": "src/as.svg"
+		},
+		{
+			"name": "at",
+			"extension": "svg",
+			"path": "src/at.svg"
+		},
+		{
+			"name": "au",
+			"extension": "svg",
+			"path": "src/au.svg"
+		},
+		{
+			"name": "aw",
+			"extension": "svg",
+			"path": "src/aw.svg"
+		},
+		{
+			"name": "ax",
+			"extension": "svg",
+			"path": "src/ax.svg"
+		},
+		{
+			"name": "az",
+			"extension": "svg",
+			"path": "src/az.svg"
+		},
+		{
+			"name": "ba",
+			"extension": "svg",
+			"path": "src/ba.svg"
+		},
+		{
+			"name": "bb",
+			"extension": "svg",
+			"path": "src/bb.svg"
+		},
+		{
+			"name": "bd",
+			"extension": "svg",
+			"path": "src/bd.svg"
+		},
+		{
+			"name": "be",
+			"extension": "svg",
+			"path": "src/be.svg"
+		},
+		{
+			"name": "bf",
+			"extension": "svg",
+			"path": "src/bf.svg"
+		},
+		{
+			"name": "bg",
+			"extension": "svg",
+			"path": "src/bg.svg"
+		},
+		{
+			"name": "bh",
+			"extension": "svg",
+			"path": "src/bh.svg"
+		},
+		{
+			"name": "bi",
+			"extension": "svg",
+			"path": "src/bi.svg"
+		},
+		{
+			"name": "bj",
+			"extension": "svg",
+			"path": "src/bj.svg"
+		},
+		{
+			"name": "bl",
+			"extension": "svg",
+			"path": "src/bl.svg"
+		},
+		{
+			"name": "bm",
+			"extension": "svg",
+			"path": "src/bm.svg"
+		},
+		{
+			"name": "bn",
+			"extension": "svg",
+			"path": "src/bn.svg"
+		},
+		{
+			"name": "bo",
+			"extension": "svg",
+			"path": "src/bo.svg"
+		},
+		{
+			"name": "br",
+			"extension": "svg",
+			"path": "src/br.svg"
+		},
+		{
+			"name": "bs",
+			"extension": "svg",
+			"path": "src/bs.svg"
+		},
+		{
+			"name": "bt",
+			"extension": "svg",
+			"path": "src/bt.svg"
+		},
+		{
+			"name": "bv",
+			"extension": "svg",
+			"path": "src/bv.svg"
+		},
+		{
+			"name": "bw",
+			"extension": "svg",
+			"path": "src/bw.svg"
+		},
+		{
+			"name": "by",
+			"extension": "svg",
+			"path": "src/by.svg"
+		},
+		{
+			"name": "bz",
+			"extension": "svg",
+			"path": "src/bz.svg"
+		},
+		{
+			"name": "ca",
+			"extension": "svg",
+			"path": "src/ca.svg"
+		},
+		{
+			"name": "cc",
+			"extension": "svg",
+			"path": "src/cc.svg"
+		},
+		{
+			"name": "cd",
+			"extension": "svg",
+			"path": "src/cd.svg"
+		},
+		{
+			"name": "cf",
+			"extension": "svg",
+			"path": "src/cf.svg"
+		},
+		{
+			"name": "cg",
+			"extension": "svg",
+			"path": "src/cg.svg"
+		},
+		{
+			"name": "ch",
+			"extension": "svg",
+			"path": "src/ch.svg"
+		},
+		{
+			"name": "ci",
+			"extension": "svg",
+			"path": "src/ci.svg"
+		},
+		{
+			"name": "ck",
+			"extension": "svg",
+			"path": "src/ck.svg"
+		},
+		{
+			"name": "cl",
+			"extension": "svg",
+			"path": "src/cl.svg"
+		},
+		{
+			"name": "cm",
+			"extension": "svg",
+			"path": "src/cm.svg"
+		},
+		{
+			"name": "cn",
+			"extension": "svg",
+			"path": "src/cn.svg"
+		},
+		{
+			"name": "co",
+			"extension": "svg",
+			"path": "src/co.svg"
+		},
+		{
+			"name": "cr",
+			"extension": "svg",
+			"path": "src/cr.svg"
+		},
+		{
+			"name": "cu",
+			"extension": "svg",
+			"path": "src/cu.svg"
+		},
+		{
+			"name": "cv",
+			"extension": "svg",
+			"path": "src/cv.svg"
+		},
+		{
+			"name": "cw",
+			"extension": "svg",
+			"path": "src/cw.svg"
+		},
+		{
+			"name": "cx",
+			"extension": "svg",
+			"path": "src/cx.svg"
+		},
+		{
+			"name": "cy",
+			"extension": "svg",
+			"path": "src/cy.svg"
+		},
+		{
+			"name": "cz",
+			"extension": "svg",
+			"path": "src/cz.svg"
+		},
+		{
+			"name": "de",
+			"extension": "svg",
+			"path": "src/de.svg"
+		},
+		{
+			"name": "dj",
+			"extension": "svg",
+			"path": "src/dj.svg"
+		},
+		{
+			"name": "dk",
+			"extension": "svg",
+			"path": "src/dk.svg"
+		},
+		{
+			"name": "dm",
+			"extension": "svg",
+			"path": "src/dm.svg"
+		},
+		{
+			"name": "do",
+			"extension": "svg",
+			"path": "src/do.svg"
+		},
+		{
+			"name": "dz",
+			"extension": "svg",
+			"path": "src/dz.svg"
+		},
+		{
+			"name": "ec",
+			"extension": "svg",
+			"path": "src/ec.svg"
+		},
+		{
+			"name": "ee",
+			"extension": "svg",
+			"path": "src/ee.svg"
+		},
+		{
+			"name": "eg",
+			"extension": "svg",
+			"path": "src/eg.svg"
+		},
+		{
+			"name": "er",
+			"extension": "svg",
+			"path": "src/er.svg"
+		},
+		{
+			"name": "es",
+			"extension": "svg",
+			"path": "src/es.svg"
+		},
+		{
+			"name": "et",
+			"extension": "svg",
+			"path": "src/et.svg"
+		},
+		{
+			"name": "eu",
+			"extension": "svg",
+			"path": "src/eu.svg"
+		},
+		{
+			"name": "fi",
+			"extension": "svg",
+			"path": "src/fi.svg"
+		},
+		{
+			"name": "fj",
+			"extension": "svg",
+			"path": "src/fj.svg"
+		},
+		{
+			"name": "fk",
+			"extension": "svg",
+			"path": "src/fk.svg"
+		},
+		{
+			"name": "fm",
+			"extension": "svg",
+			"path": "src/fm.svg"
+		},
+		{
+			"name": "fo",
+			"extension": "svg",
+			"path": "src/fo.svg"
+		},
+		{
+			"name": "fr",
+			"extension": "svg",
+			"path": "src/fr.svg"
+		},
+		{
+			"name": "ga",
+			"extension": "svg",
+			"path": "src/ga.svg"
+		},
+		{
+			"name": "gb-eng",
+			"extension": "svg",
+			"path": "src/gb-eng.svg"
+		},
+		{
+			"name": "gb-nir",
+			"extension": "svg",
+			"path": "src/gb-nir.svg"
+		},
+		{
+			"name": "gb-sct",
+			"extension": "svg",
+			"path": "src/gb-sct.svg"
+		},
+		{
+			"name": "gb-wls",
+			"extension": "svg",
+			"path": "src/gb-wls.svg"
+		},
+		{
+			"name": "gb-zet",
+			"extension": "svg",
+			"path": "src/gb-zet.svg"
+		},
+		{
+			"name": "gb",
+			"extension": "svg",
+			"path": "src/gb.svg"
+		},
+		{
+			"name": "gd",
+			"extension": "svg",
+			"path": "src/gd.svg"
+		},
+		{
+			"name": "ge",
+			"extension": "svg",
+			"path": "src/ge.svg"
+		},
+		{
+			"name": "gf",
+			"extension": "svg",
+			"path": "src/gf.svg"
+		},
+		{
+			"name": "gg",
+			"extension": "svg",
+			"path": "src/gg.svg"
+		},
+		{
+			"name": "gh",
+			"extension": "svg",
+			"path": "src/gh.svg"
+		},
+		{
+			"name": "gi",
+			"extension": "svg",
+			"path": "src/gi.svg"
+		},
+		{
+			"name": "gl",
+			"extension": "svg",
+			"path": "src/gl.svg"
+		},
+		{
+			"name": "gm",
+			"extension": "svg",
+			"path": "src/gm.svg"
+		},
+		{
+			"name": "gn",
+			"extension": "svg",
+			"path": "src/gn.svg"
+		},
+		{
+			"name": "gp",
+			"extension": "svg",
+			"path": "src/gp.svg"
+		},
+		{
+			"name": "gq",
+			"extension": "svg",
+			"path": "src/gq.svg"
+		},
+		{
+			"name": "gr",
+			"extension": "svg",
+			"path": "src/gr.svg"
+		},
+		{
+			"name": "gs",
+			"extension": "svg",
+			"path": "src/gs.svg"
+		},
+		{
+			"name": "gt",
+			"extension": "svg",
+			"path": "src/gt.svg"
+		},
+		{
+			"name": "gu",
+			"extension": "svg",
+			"path": "src/gu.svg"
+		},
+		{
+			"name": "gw",
+			"extension": "svg",
+			"path": "src/gw.svg"
+		},
+		{
+			"name": "gy",
+			"extension": "svg",
+			"path": "src/gy.svg"
+		},
+		{
+			"name": "hk",
+			"extension": "svg",
+			"path": "src/hk.svg"
+		},
+		{
+			"name": "hm",
+			"extension": "svg",
+			"path": "src/hm.svg"
+		},
+		{
+			"name": "hn",
+			"extension": "svg",
+			"path": "src/hn.svg"
+		},
+		{
+			"name": "hr",
+			"extension": "svg",
+			"path": "src/hr.svg"
+		},
+		{
+			"name": "ht",
+			"extension": "svg",
+			"path": "src/ht.svg"
+		},
+		{
+			"name": "hu",
+			"extension": "svg",
+			"path": "src/hu.svg"
+		},
+		{
+			"name": "id",
+			"extension": "svg",
+			"path": "src/id.svg"
+		},
+		{
+			"name": "ie",
+			"extension": "svg",
+			"path": "src/ie.svg"
+		},
+		{
+			"name": "il",
+			"extension": "svg",
+			"path": "src/il.svg"
+		},
+		{
+			"name": "im",
+			"extension": "svg",
+			"path": "src/im.svg"
+		},
+		{
+			"name": "in",
+			"extension": "svg",
+			"path": "src/in.svg"
+		},
+		{
+			"name": "io",
+			"extension": "svg",
+			"path": "src/io.svg"
+		},
+		{
+			"name": "iq",
+			"extension": "svg",
+			"path": "src/iq.svg"
+		},
+		{
+			"name": "ir",
+			"extension": "svg",
+			"path": "src/ir.svg"
+		},
+		{
+			"name": "is",
+			"extension": "svg",
+			"path": "src/is.svg"
+		},
+		{
+			"name": "it",
+			"extension": "svg",
+			"path": "src/it.svg"
+		},
+		{
+			"name": "je",
+			"extension": "svg",
+			"path": "src/je.svg"
+		},
+		{
+			"name": "jm",
+			"extension": "svg",
+			"path": "src/jm.svg"
+		},
+		{
+			"name": "jo",
+			"extension": "svg",
+			"path": "src/jo.svg"
+		},
+		{
+			"name": "jp",
+			"extension": "svg",
+			"path": "src/jp.svg"
+		},
+		{
+			"name": "ke",
+			"extension": "svg",
+			"path": "src/ke.svg"
+		},
+		{
+			"name": "kg",
+			"extension": "svg",
+			"path": "src/kg.svg"
+		},
+		{
+			"name": "kh",
+			"extension": "svg",
+			"path": "src/kh.svg"
+		},
+		{
+			"name": "ki",
+			"extension": "svg",
+			"path": "src/ki.svg"
+		},
+		{
+			"name": "km",
+			"extension": "svg",
+			"path": "src/km.svg"
+		},
+		{
+			"name": "kn",
+			"extension": "svg",
+			"path": "src/kn.svg"
+		},
+		{
+			"name": "kp",
+			"extension": "svg",
+			"path": "src/kp.svg"
+		},
+		{
+			"name": "kr",
+			"extension": "svg",
+			"path": "src/kr.svg"
+		},
+		{
+			"name": "kw",
+			"extension": "svg",
+			"path": "src/kw.svg"
+		},
+		{
+			"name": "ky",
+			"extension": "svg",
+			"path": "src/ky.svg"
+		},
+		{
+			"name": "kz",
+			"extension": "svg",
+			"path": "src/kz.svg"
+		},
+		{
+			"name": "la",
+			"extension": "svg",
+			"path": "src/la.svg"
+		},
+		{
+			"name": "lb",
+			"extension": "svg",
+			"path": "src/lb.svg"
+		},
+		{
+			"name": "lc",
+			"extension": "svg",
+			"path": "src/lc.svg"
+		},
+		{
+			"name": "li",
+			"extension": "svg",
+			"path": "src/li.svg"
+		},
+		{
+			"name": "lk",
+			"extension": "svg",
+			"path": "src/lk.svg"
+		},
+		{
+			"name": "lr",
+			"extension": "svg",
+			"path": "src/lr.svg"
+		},
+		{
+			"name": "ls",
+			"extension": "svg",
+			"path": "src/ls.svg"
+		},
+		{
+			"name": "lt",
+			"extension": "svg",
+			"path": "src/lt.svg"
+		},
+		{
+			"name": "lu",
+			"extension": "svg",
+			"path": "src/lu.svg"
+		},
+		{
+			"name": "lv",
+			"extension": "svg",
+			"path": "src/lv.svg"
+		},
+		{
+			"name": "ly",
+			"extension": "svg",
+			"path": "src/ly.svg"
+		},
+		{
+			"name": "ma",
+			"extension": "svg",
+			"path": "src/ma.svg"
+		},
+		{
+			"name": "mc",
+			"extension": "svg",
+			"path": "src/mc.svg"
+		},
+		{
+			"name": "md",
+			"extension": "svg",
+			"path": "src/md.svg"
+		},
+		{
+			"name": "me",
+			"extension": "svg",
+			"path": "src/me.svg"
+		},
+		{
+			"name": "mf",
+			"extension": "svg",
+			"path": "src/mf.svg"
+		},
+		{
+			"name": "mg",
+			"extension": "svg",
+			"path": "src/mg.svg"
+		},
+		{
+			"name": "mh",
+			"extension": "svg",
+			"path": "src/mh.svg"
+		},
+		{
+			"name": "mk",
+			"extension": "svg",
+			"path": "src/mk.svg"
+		},
+		{
+			"name": "ml",
+			"extension": "svg",
+			"path": "src/ml.svg"
+		},
+		{
+			"name": "mm",
+			"extension": "svg",
+			"path": "src/mm.svg"
+		},
+		{
+			"name": "mn",
+			"extension": "svg",
+			"path": "src/mn.svg"
+		},
+		{
+			"name": "mo",
+			"extension": "svg",
+			"path": "src/mo.svg"
+		},
+		{
+			"name": "mp",
+			"extension": "svg",
+			"path": "src/mp.svg"
+		},
+		{
+			"name": "mq",
+			"extension": "svg",
+			"path": "src/mq.svg"
+		},
+		{
+			"name": "mr",
+			"extension": "svg",
+			"path": "src/mr.svg"
+		},
+		{
+			"name": "ms",
+			"extension": "svg",
+			"path": "src/ms.svg"
+		},
+		{
+			"name": "mt",
+			"extension": "svg",
+			"path": "src/mt.svg"
+		},
+		{
+			"name": "mu",
+			"extension": "svg",
+			"path": "src/mu.svg"
+		},
+		{
+			"name": "mv",
+			"extension": "svg",
+			"path": "src/mv.svg"
+		},
+		{
+			"name": "mw",
+			"extension": "svg",
+			"path": "src/mw.svg"
+		},
+		{
+			"name": "mx",
+			"extension": "svg",
+			"path": "src/mx.svg"
+		},
+		{
+			"name": "my",
+			"extension": "svg",
+			"path": "src/my.svg"
+		},
+		{
+			"name": "mz",
+			"extension": "svg",
+			"path": "src/mz.svg"
+		},
+		{
+			"name": "na",
+			"extension": "svg",
+			"path": "src/na.svg"
+		},
+		{
+			"name": "nc",
+			"extension": "svg",
+			"path": "src/nc.svg"
+		},
+		{
+			"name": "ne",
+			"extension": "svg",
+			"path": "src/ne.svg"
+		},
+		{
+			"name": "nf",
+			"extension": "svg",
+			"path": "src/nf.svg"
+		},
+		{
+			"name": "ng",
+			"extension": "svg",
+			"path": "src/ng.svg"
+		},
+		{
+			"name": "ni",
+			"extension": "svg",
+			"path": "src/ni.svg"
+		},
+		{
+			"name": "nl",
+			"extension": "svg",
+			"path": "src/nl.svg"
+		},
+		{
+			"name": "no",
+			"extension": "svg",
+			"path": "src/no.svg"
+		},
+		{
+			"name": "np",
+			"extension": "svg",
+			"path": "src/np.svg"
+		},
+		{
+			"name": "nr",
+			"extension": "svg",
+			"path": "src/nr.svg"
+		},
+		{
+			"name": "nu",
+			"extension": "svg",
+			"path": "src/nu.svg"
+		},
+		{
+			"name": "nz",
+			"extension": "svg",
+			"path": "src/nz.svg"
+		},
+		{
+			"name": "om",
+			"extension": "svg",
+			"path": "src/om.svg"
+		},
+		{
+			"name": "pa",
+			"extension": "svg",
+			"path": "src/pa.svg"
+		},
+		{
+			"name": "pe",
+			"extension": "svg",
+			"path": "src/pe.svg"
+		},
+		{
+			"name": "pf",
+			"extension": "svg",
+			"path": "src/pf.svg"
+		},
+		{
+			"name": "pg",
+			"extension": "svg",
+			"path": "src/pg.svg"
+		},
+		{
+			"name": "ph",
+			"extension": "svg",
+			"path": "src/ph.svg"
+		},
+		{
+			"name": "pk",
+			"extension": "svg",
+			"path": "src/pk.svg"
+		},
+		{
+			"name": "pl",
+			"extension": "svg",
+			"path": "src/pl.svg"
+		},
+		{
+			"name": "pm",
+			"extension": "svg",
+			"path": "src/pm.svg"
+		},
+		{
+			"name": "pn",
+			"extension": "svg",
+			"path": "src/pn.svg"
+		},
+		{
+			"name": "pr",
+			"extension": "svg",
+			"path": "src/pr.svg"
+		},
+		{
+			"name": "ps",
+			"extension": "svg",
+			"path": "src/ps.svg"
+		},
+		{
+			"name": "pt",
+			"extension": "svg",
+			"path": "src/pt.svg"
+		},
+		{
+			"name": "pw",
+			"extension": "svg",
+			"path": "src/pw.svg"
+		},
+		{
+			"name": "py",
+			"extension": "svg",
+			"path": "src/py.svg"
+		},
+		{
+			"name": "qa",
+			"extension": "svg",
+			"path": "src/qa.svg"
+		},
+		{
+			"name": "re",
+			"extension": "svg",
+			"path": "src/re.svg"
+		},
+		{
+			"name": "ro",
+			"extension": "svg",
+			"path": "src/ro.svg"
+		},
+		{
+			"name": "rs",
+			"extension": "svg",
+			"path": "src/rs.svg"
+		},
+		{
+			"name": "ru",
+			"extension": "svg",
+			"path": "src/ru.svg"
+		},
+		{
+			"name": "rw",
+			"extension": "svg",
+			"path": "src/rw.svg"
+		},
+		{
+			"name": "sa",
+			"extension": "svg",
+			"path": "src/sa.svg"
+		},
+		{
+			"name": "sb",
+			"extension": "svg",
+			"path": "src/sb.svg"
+		},
+		{
+			"name": "sc",
+			"extension": "svg",
+			"path": "src/sc.svg"
+		},
+		{
+			"name": "sd",
+			"extension": "svg",
+			"path": "src/sd.svg"
+		},
+		{
+			"name": "se",
+			"extension": "svg",
+			"path": "src/se.svg"
+		},
+		{
+			"name": "sg",
+			"extension": "svg",
+			"path": "src/sg.svg"
+		},
+		{
+			"name": "sh",
+			"extension": "svg",
+			"path": "src/sh.svg"
+		},
+		{
+			"name": "si",
+			"extension": "svg",
+			"path": "src/si.svg"
+		},
+		{
+			"name": "sj",
+			"extension": "svg",
+			"path": "src/sj.svg"
+		},
+		{
+			"name": "sk",
+			"extension": "svg",
+			"path": "src/sk.svg"
+		},
+		{
+			"name": "sl",
+			"extension": "svg",
+			"path": "src/sl.svg"
+		},
+		{
+			"name": "sm",
+			"extension": "svg",
+			"path": "src/sm.svg"
+		},
+		{
+			"name": "sn",
+			"extension": "svg",
+			"path": "src/sn.svg"
+		},
+		{
+			"name": "so",
+			"extension": "svg",
+			"path": "src/so.svg"
+		},
+		{
+			"name": "sr",
+			"extension": "svg",
+			"path": "src/sr.svg"
+		},
+		{
+			"name": "ss",
+			"extension": "svg",
+			"path": "src/ss.svg"
+		},
+		{
+			"name": "st",
+			"extension": "svg",
+			"path": "src/st.svg"
+		},
+		{
+			"name": "sv",
+			"extension": "svg",
+			"path": "src/sv.svg"
+		},
+		{
+			"name": "sx",
+			"extension": "svg",
+			"path": "src/sx.svg"
+		},
+		{
+			"name": "sy",
+			"extension": "svg",
+			"path": "src/sy.svg"
+		},
+		{
+			"name": "sz",
+			"extension": "svg",
+			"path": "src/sz.svg"
+		},
+		{
+			"name": "tc",
+			"extension": "svg",
+			"path": "src/tc.svg"
+		},
+		{
+			"name": "td",
+			"extension": "svg",
+			"path": "src/td.svg"
+		},
+		{
+			"name": "tf",
+			"extension": "svg",
+			"path": "src/tf.svg"
+		},
+		{
+			"name": "tg",
+			"extension": "svg",
+			"path": "src/tg.svg"
+		},
+		{
+			"name": "th",
+			"extension": "svg",
+			"path": "src/th.svg"
+		},
+		{
+			"name": "tj",
+			"extension": "svg",
+			"path": "src/tj.svg"
+		},
+		{
+			"name": "tk",
+			"extension": "svg",
+			"path": "src/tk.svg"
+		},
+		{
+			"name": "tl",
+			"extension": "svg",
+			"path": "src/tl.svg"
+		},
+		{
+			"name": "tm",
+			"extension": "svg",
+			"path": "src/tm.svg"
+		},
+		{
+			"name": "tn",
+			"extension": "svg",
+			"path": "src/tn.svg"
+		},
+		{
+			"name": "to",
+			"extension": "svg",
+			"path": "src/to.svg"
+		},
+		{
+			"name": "tr",
+			"extension": "svg",
+			"path": "src/tr.svg"
+		},
+		{
+			"name": "tt",
+			"extension": "svg",
+			"path": "src/tt.svg"
+		},
+		{
+			"name": "tv",
+			"extension": "svg",
+			"path": "src/tv.svg"
+		},
+		{
+			"name": "tw",
+			"extension": "svg",
+			"path": "src/tw.svg"
+		},
+		{
+			"name": "tz",
+			"extension": "svg",
+			"path": "src/tz.svg"
+		},
+		{
+			"name": "ua",
+			"extension": "svg",
+			"path": "src/ua.svg"
+		},
+		{
+			"name": "ug",
+			"extension": "svg",
+			"path": "src/ug.svg"
+		},
+		{
+			"name": "um",
+			"extension": "svg",
+			"path": "src/um.svg"
+		},
+		{
+			"name": "us",
+			"extension": "svg",
+			"path": "src/us.svg"
+		},
+		{
+			"name": "uy",
+			"extension": "svg",
+			"path": "src/uy.svg"
+		},
+		{
+			"name": "uz",
+			"extension": "svg",
+			"path": "src/uz.svg"
+		},
+		{
+			"name": "va",
+			"extension": "svg",
+			"path": "src/va.svg"
+		},
+		{
+			"name": "vc",
+			"extension": "svg",
+			"path": "src/vc.svg"
+		},
+		{
+			"name": "ve",
+			"extension": "svg",
+			"path": "src/ve.svg"
+		},
+		{
+			"name": "vg",
+			"extension": "svg",
+			"path": "src/vg.svg"
+		},
+		{
+			"name": "vi",
+			"extension": "svg",
+			"path": "src/vi.svg"
+		},
+		{
+			"name": "vn",
+			"extension": "svg",
+			"path": "src/vn.svg"
+		},
+		{
+			"name": "vu",
+			"extension": "svg",
+			"path": "src/vu.svg"
+		},
+		{
+			"name": "wf",
+			"extension": "svg",
+			"path": "src/wf.svg"
+		},
+		{
+			"name": "ws",
+			"extension": "svg",
+			"path": "src/ws.svg"
+		},
+		{
+			"name": "xk",
+			"extension": "svg",
+			"path": "src/xk.svg"
+		},
+		{
+			"name": "ye",
+			"extension": "svg",
+			"path": "src/ye.svg"
+		},
+		{
+			"name": "yt",
+			"extension": "svg",
+			"path": "src/yt.svg"
+		},
+		{
+			"name": "za",
+			"extension": "svg",
+			"path": "src/za.svg"
+		},
+		{
+			"name": "zm",
+			"extension": "svg",
+			"path": "src/zm.svg"
+		},
+		{
+			"name": "zw",
+			"extension": "svg",
+			"path": "src/zw.svg"
+		}
+	]
+}
