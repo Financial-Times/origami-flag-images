@@ -10,9 +10,7 @@ jobs:
     steps:
       - checkout
       - run: npm ci
-      - run:
-          name: Build the image set manifest
-          command: ./node_modules/.bin/oist build-manifest --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY}
+      - run: npm run build
       - run:
           name: Commit and push the manifest changes
           command: >
@@ -30,12 +28,6 @@ jobs:
     steps:
       - checkout
       - run: npm ci
-      - run:
-          name: Publish to EU bucket
-          command: ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-eu --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY} --scheme-version $CIRCLE_TAG
-      - run:
-          name: Publish to US bucket
-          command: ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-us --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY} --scheme-version $CIRCLE_TAG
       - run:
           name: Authenticate with npm
           command: echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > ${HOME}/.npmrc

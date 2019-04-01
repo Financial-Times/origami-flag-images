@@ -4,6 +4,13 @@
   "engines": {
     "node": "^6"
   },
+  "scripts": {
+    "build": "oist build-manifest --scheme ftflag --source-directory src",
+    "upload-to-s3": "npm run upload-to-s3:eu && upload-to-s3:us",
+    "upload-to-s3:eu": "oist publish-s3 --bucket origami-imageset-data-eu --scheme ftflag --source-directory src --scheme-version $npm_package_version",
+    "upload-to-s3:us": "oist publish-s3 --bucket origami-imageset-data-us --scheme ftflag --source-directory src --scheme-version $npm_package_version",
+    "prepublishOnly": "npm run upload-to-s3"
+  },
   "main": "./imageset.json",
   "devDependencies": {
     "@financial-times/origami-image-set-tools": "^2.0.0"
