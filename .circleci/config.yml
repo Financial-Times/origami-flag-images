@@ -8,6 +8,8 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
+      - run: git config --global user.email "origami.support@ft.com";
+      - run: git config --global user.name "origamiserviceuser [bot]";
       - run: npm ci
       - run:
           name: Authenticate with npm
@@ -18,8 +20,6 @@ jobs:
           name: Commit and push the package.json changes
           command: >
             if [ ! "$(git status --porcelain)" == "" ]; then
-              git config --global user.email "origami.support@ft.com";
-              git config --global user.name "origamiserviceuser [bot]";
               git commit imageset.json -m 'Update version property of package.json [ci skip]';
               git push origin HEAD:master;
             fi
