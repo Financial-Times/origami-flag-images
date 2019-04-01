@@ -14,9 +14,8 @@ jobs:
       - run:
           name: Authenticate with npm
           command: echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > ${HOME}/.npmrc
-      - run: npm version --git-tag-version=false ${CIRCLE_TAG} -m "%s"
+      - run: npm version --git-tag-version=false ${CIRCLE_TAG} -m "%s" && git push origin HEAD:master
       - run: npm publish --access=public
-      - run: git push origin HEAD:master;
 
 # Circle workflows
 workflows:
