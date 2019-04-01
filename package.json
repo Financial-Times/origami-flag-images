@@ -2,17 +2,18 @@
   "name": "@financial-times/origami-flag-images",
   "version": "1.0.1",
   "engines": {
-    "node": "^6"
+    "node": "^10"
   },
   "scripts": {
-    "build": "oist build-manifest --scheme ftflag --source-directory src",
+    "build": "oist build-manifest --scheme ftflag --source-directory src --host https://origami-images.ft.com/ --scheme-version $npm_package_version",
     "upload-to-s3": "npm run upload-to-s3:eu && upload-to-s3:us",
     "upload-to-s3:eu": "oist publish-s3 --bucket origami-imageset-data-eu --scheme ftflag --source-directory src --scheme-version $npm_package_version",
     "upload-to-s3:us": "oist publish-s3 --bucket origami-imageset-data-us --scheme ftflag --source-directory src --scheme-version $npm_package_version",
-    "prepublishOnly": "npm run upload-to-s3"
+    "prepublishOnly": "npm run upload-to-s3",
+    "version": "npm run build && git add imageset.json"
   },
   "main": "./imageset.json",
   "devDependencies": {
-    "@financial-times/origami-image-set-tools": "^2.0.0"
+    "@financial-times/origami-image-set-tools": "^2.1.0"
   }
 }

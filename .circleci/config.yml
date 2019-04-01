@@ -2,25 +2,6 @@ version: 2
 
 # Circle jobs
 jobs:
-
-  # Ensure that the image set manifest is in place
-  manifest:
-    docker:
-      - image: circleci/node:latest
-    steps:
-      - checkout
-      - run: npm ci
-      - run: npm run build
-      - run:
-          name: Commit and push the manifest changes
-          command: >
-            if [ ! "$(git status --porcelain)" == "" ]; then
-              git config --global user.email "origami.support@ft.com";
-              git config --global user.name "origamiserviceuser [bot]";
-              git commit imageset.json -m 'Update image manifest [ci skip]';
-              git push origin master;
-            fi
-
   # Publish the image set to S3
   publish:
     docker:
@@ -46,14 +27,8 @@ jobs:
 # Circle workflows
 workflows:
   version: 2
-  manifest-and-publish:
+  publish:
     jobs:
-      - manifest:
-          filters:
-            branches:
-              only: master
-            tags:
-              ignore: /.*/
       - publish:
           filters:
             branches:
