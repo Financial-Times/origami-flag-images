@@ -14,15 +14,9 @@ jobs:
       - run:
           name: Authenticate with npm
           command: echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > ${HOME}/.npmrc
-      - run: npm version --git-tag-version=false ${CIRCLE_TAG}
+      - run: npm version --git-tag-version=false ${CIRCLE_TAG} -m "%s"
       - run: npm publish --access=public
-      - run:
-          name: Commit and push the package.json changes
-          command: >
-            if [ ! "$(git status --porcelain)" == "" ]; then
-              git commit imageset.json -m 'Update version property of package.json [ci skip]';
-              git push origin HEAD:master;
-            fi
+      - run: git push origin HEAD:master;
 
 # Circle workflows
 workflows:
