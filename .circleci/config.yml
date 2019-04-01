@@ -33,6 +33,15 @@ jobs:
           command: echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > ${HOME}/.npmrc
       - run: npm version --git-tag-version=false ${CIRCLE_TAG}
       - run: npm publish --access=public
+      - run:
+          name: Commit and push the package.json changes
+          command: >
+            if [ ! "$(git status --porcelain)" == "" ]; then
+              git config --global user.email "origami.support@ft.com";
+              git config --global user.name "origamiserviceuser [bot]";
+              git commit imageset.json -m 'Update version property of package.json [ci skip]';
+              git push origin HEAD:master;
+            fi
 
 # Circle workflows
 workflows:
