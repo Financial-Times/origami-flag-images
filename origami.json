@@ -1,5 +1,6 @@
 {
-    "description": "World flags",
+    "description": "A collection of official, vectorised international flags",
+    "keywords": ["flag", "world", "image", "images"],
     "origamiType": "imageset",
     "origamiVersion": 1,
     "support": "https://github.com/Financial-Times/origami-flag-images/issues",
