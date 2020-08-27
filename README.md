@@ -1,4 +1,4 @@
-# Flag Images [![Build status](https://img.shields.io/circleci/project/Financial-Times/origami-flag-images.svg)](https://circleci.com/gh/Financial-Times/origami-flag-images)
+# Flag Images
 
 An image set of world flags.
 
