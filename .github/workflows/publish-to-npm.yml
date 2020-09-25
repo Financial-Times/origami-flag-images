@@ -1,4 +1,4 @@
-name: Publish to npm
+name: Publish to npm and s3
 on:
   release:
     types: [created]
@@ -9,15 +9,18 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2.1.1
       with:
-        node-version: '10.x'
+        node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
     - run: git config --global user.email "origami.support@ft.com";
-    - run: git config --global user.name "origamiserviceuser [bot]"
+    - run: git config --global user.name "origamiserviceuser [bot]";
     - run: npm ci
     - name: Get the version
       id: version
       run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
-    - run: npm version --no-git-tag-version ${{ steps.version.outputs.VERSION }} && git push origin HEAD:master
+    - run: npm version --no-git-tag-version ${{ steps.version.outputs.VERSION }}
+    - run: git push origin HEAD:master
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+        AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
