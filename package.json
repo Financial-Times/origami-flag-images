@@ -1,14 +1,26 @@
 {
-    "name": "@financial-times/origami-flag-images",
-    "version": "100.0.0-8",
-    "main": "./imageset.json",
-    "devDependencies": {
-        "@financial-times/origami-image-set-tools": "^2.3.12"
-    },
-    "engines": {
-        "node": "^10"
-    },
-    "publishConfig": {
-        "registry": "https://origami-npm-registry-prototype.herokuapp.com"
-    }
+  "name": "@financial-times/origami-flag-images",
+  "version": "100.0.0-10",
+  "description": "An image set of world flags.",
+  "keywords": [],
+  "homepage": "https://github.com/Financial-Times/origami-flag-images#readme",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/origami-flag-images/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/origami-flag-images.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "./imageset.json",
+  "devDependencies": {
+    "@financial-times/origami-image-set-tools": "^2.3.12"
+  },
+  "engines": {
+    "node": "^10"
+  },
+  "publishConfig": {
+    "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  }
 }
